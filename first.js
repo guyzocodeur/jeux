@@ -6,7 +6,7 @@ var Guyzo = {
         game.load.image('image', 'assets/image.jpg');
         game.load.image('brave', 'assets/brave.png');
         game.load.image('ball2', 'assets/ball2.png');
-        game.load.image('brave', 'assets/bandit.png');
+        game.load.image('bandit', 'assets/bandit.png');
     },
     create: function(){
         //setup + affichage
