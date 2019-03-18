@@ -15,7 +15,6 @@ var Guyzo = {
         game.world.enableBody = true;
         game.add.image(0, 0, 'image');
         this.brave = game.add.image(game.width/2, game.height-50, 'brave');    
-        game.physics.arcade.enable(this.brave);
         this.brave.body.collideWorldBounds = true;
         this.left = game.input.keyboard.addKey(Phaser.Keyboard.LEFT);
         this.right = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
@@ -23,7 +22,6 @@ var Guyzo = {
 
         game.add.image(0, 0, 'image');
         this.bandit = game.add.image(game.width/2, 40, 'bandit');    
-        game.physics.arcade.enable(this.bandit);
         this.bandit.body.collideWorldBounds = true;
         this.left2 = game.input.keyboard.addKey(Phaser.Keyboard.A);
         this.right2 = game.input.keyboard.addKey(Phaser.Keyboard.Z);
